@@ -17,10 +17,8 @@ int[,] GetMatrix(int rows = 3, int columns = 4)
         {
             matrix[i, j] = i + j;
         }
-
     }
     return matrix;
-
 }
 
 void PrintMatrix(int[,] matrix)
@@ -32,7 +30,6 @@ void PrintMatrix(int[,] matrix)
             Console.Write(matrix[i, j] + " ");
         }
         Console.WriteLine();
-
     }
 }
 
